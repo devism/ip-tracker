@@ -1,0 +1,31 @@
+.ip-results{
+    background: white;
+    color: black;
+    margin: 2em;
+    padding: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #3c3c3c;
+    display: inline-flex;
+}
+
+.ip-results div {
+    line-height: 1em;
+}
+
+h5{
+    color: gray;
+    margin:0px;
+    font-size: 0.7em;
+    margin: 0.8em;
+    text-transform: uppercase;
+}
+
+p{
+    margin:0px;
+    margin-bottom:1em;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #1f1f1f;
+}

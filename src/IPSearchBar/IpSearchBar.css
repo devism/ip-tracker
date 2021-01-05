@@ -1,0 +1,24 @@
+.searchbar{
+
+}
+
+.searchbar input {
+    border-radius: 5px 0px 0px 5px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    padding: 1em;
+    color: black;
+    font-weight: 800;
+}
+
+button{
+    border: none;
+    background: black;
+    padding: 1em;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    width: 4em;
+    height: 3.2em;
+    vertical-align: middle;
+}
