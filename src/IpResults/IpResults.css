@@ -7,7 +7,9 @@
     padding-right: 4em;
     border-radius: 5px;
     box-shadow: 2px 2px 5px #3c3c3c;
-    display: inline-flex;
+    /* display: inline-flex; */
+    position: absolute;
+    z-index: 9999;
 }
 
 .ip-results div {
@@ -28,4 +30,17 @@ p{
     font-weight: 700;
     font-size: 1.2em;
     color: #1f1f1f;
+}
+
+.leaflet-container{
+    height: 100vh;
+    display: block;
+}
+
+#mapid { height: 180px; }
+
+.ip-results-wrapper{
+    display: flex;
+    justify-content: center;
+
 }

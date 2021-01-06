@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import ReactDOM from 'react-dom';
 import  './IpResults.css';
-var i = 0;
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+
 function IpResults({searchVal}){
    
     // console.log("fdfdfd: " + i++);
@@ -54,26 +55,33 @@ function IpResults({searchVal}){
     }
     
     return (
-        <div className="ip-results">
-        {!ipData.location ? <p>Loading</p> : 
-        <div>
+        <div className="ip-results-wrapper">
+          
+           
+         
+            <div className="ip-results">
+            {!ipData.location ? <p>Loading</p> : 
+            <div>
             <h5>IP ADDRESS</h5>
             <p>{ipData.ip}</p>
-           
+
             <h5>LOCATION</h5>
             <p>{ipData.region_name}</p>
-           
-           <h5>City</h5>
-           <p>{ipData.city}</p>
 
-           <h5>zip</h5>
-           <p>{ipData.zip} </p> 
+            <h5>City</h5>
+            <p>{ipData.city}</p>
 
-           <h5>Capital</h5>
-           <p>{ipData.location.capital} </p> 
-        </div>   
-        }
-        </div>
+            <h5>zip</h5>
+            <p>{ipData.zip} </p> 
+
+            <h5>Capital</h5>
+            <p>{ipData.location.capital} </p> 
+            </div>   
+            }
+            </div>
+            
+        </div>    
+        
     )
 }
 
