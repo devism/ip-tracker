@@ -2,7 +2,7 @@
     background: white;
     color: black;
     margin: 2em;
-    padding: 2em;
+    padding: 1em;
     padding-left: 4em;
     padding-right: 4em;
     border-radius: 5px;
@@ -10,10 +10,12 @@
     /* display: inline-flex; */
     position: absolute;
     z-index: 9999;
+    margin-top: -2em;
 }
 
 .ip-results div {
     line-height: 1em;
+    margin: 0.3em;
 }
 
 h5{
@@ -28,7 +30,7 @@ p{
     margin:0px;
     margin-bottom:1em;
     font-weight: 700;
-    font-size: 1.2em;
+    font-size: 0.9em;
     color: #1f1f1f;
 }
 
@@ -43,4 +45,20 @@ p{
     display: flex;
     justify-content: center;
 
+}
+
+.data-wrapper{
+    display: block;
+    max-width: 27em;
+}
+
+@media only screen and (min-width:768px){
+    p{
+        font-size: 0.6em;
+    }
+
+    .data-wrapper{
+        display: flex;
+        max-width: 27em;
+    }
 }

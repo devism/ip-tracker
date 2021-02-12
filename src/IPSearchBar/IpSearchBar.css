@@ -1,5 +1,6 @@
 .searchbar{
-
+    margin-bottom: 3em;
+    display: inline-flex;
 }
 
 .searchbar input {

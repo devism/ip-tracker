@@ -15,9 +15,8 @@ code {
 
 .App-header{
   background-repeat: no-repeat;
-  min-height: 29vh;
-
-  font-size: calc(10px + 2vmin);
+  min-height: 26vh;
+  font-size: calc(6px + 2vmin);
   color: white;
 
   background-image: url("images/pattern-bg.png");
