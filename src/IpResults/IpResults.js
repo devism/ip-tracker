@@ -23,7 +23,7 @@ function IpResults({searchVal}){
         if(searchVal){
             // console.log("you" + searchVal)
             
-            fetch("http://api.ipstack.com/" + searchVal + "?access_key=" + accessKey)
+            fetch("https://api.ipstack.com/" + searchVal + "?access_key=" + accessKey)
             .then(response  => response.json())
             .then((data) => {
                 setIpData(data)
@@ -38,7 +38,7 @@ function IpResults({searchVal}){
             
         } else {
 
-            fetch ("http://api.ipstack.com/check?access_key=" + accessKey)
+            fetch ("https://api.ipstack.com/check?access_key=" + accessKey)
             .then(response  => response.json())
             .then((data) => {
                 setIpData(data)
@@ -114,7 +114,7 @@ function IpResults({searchVal}){
 
                 <MapContainer style={{ background: '#aad3df'}} center={[ipData.latitude, ipData.longitude ]} zoom={2} scrollWheelZoom={true}>
                 <TileLayer
-                attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
 

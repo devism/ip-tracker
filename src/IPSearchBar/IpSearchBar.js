@@ -25,7 +25,7 @@ function IPSearchBar({setSearchVal}){
     return (
         <div className="searchbar">
             <input id="search" type="text" placeholder="Enter Ip Address or Url"/>
-            <button tabIndex="0" onClick={search}> 
+            <button style={{cursor:'pointer'}} tabIndex="0" onClick={search}> 
             <svg width="15" viewBox="0 0 24 24"><path fill="white" d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
             </button>
         </div>

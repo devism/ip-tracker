@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-size: contain;
+  background-image: url("images/pattern-bg.png");
 }
 
 code {
@@ -18,6 +20,6 @@ code {
   min-height: 26vh;
   font-size: calc(6px + 2vmin);
   color: white;
-
+  background-size: contain;
   background-image: url("images/pattern-bg.png");
 }

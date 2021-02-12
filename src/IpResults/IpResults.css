@@ -1,16 +1,12 @@
 .ip-results{
     background: white;
     color: black;
-    margin: 2em;
-    padding: 1em;
-    padding-left: 4em;
-    padding-right: 4em;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px #3c3c3c;
-    /* display: inline-flex; */
-    position: absolute;
-    z-index: 9999;
-    margin-top: -2em;
+    padding: 1em 1em;
+border-radius: 5px;
+box-shadow: 2px 2px 5px #3c3c3c;
+position: absolute;
+z-index: 9999;
+margin: -2em 0em 2em;
 }
 
 .ip-results div {
